@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<table border="2">
+ <thead>
+  <tr>
+    <th>이름</th> <th>성별</th> <th>주소</th> <th>회비</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>최진혁</td> <td>남</td> <td rowspan="2">청주</td> <td>1000</td>
+  </tr>
+  <tr>
+    <td>최하아</td> <td>여</td> <!-- <td>서울</td>  --> <td>1500</td>
+  </tr>
+  </tbody>
+  <tfoot>
+   <td colspan="3">합계</td> <!-- <td></td> <td></td> --> <td>2500</td>
+  </tfoot>
+ 
+
+</table>
+
+<!-- rowspan : 2개의 행이 병합된다. colspans :3개의 열이 병합된다. -> 태그를 삭제해 주어야 한다.-->
+<!-- td : table data , tr : table row ,border: table line-->
+</body>
+</html>
